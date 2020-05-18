@@ -1,0 +1,60 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font: 4rem;
+    font-weight: 400;
+}
+.interval-container {
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+}
+.interval-length-container {
+    display: flex;
+}
+button {
+    padding: 5px 10px;
+    margin: 0 10px;
+    height: 25px;
+    background-color: #263646;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    width: 70px;
+    border-radius: 2px;
+}
+
+.interval-length {
+    font-size: 2rem;
+    margin: 0 10px;
+}
+h4 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0 40px;
+    margin-top: 0;
+}
+
+.timer-container {
+    border: 2px solid #263646;
+    margin-top: 40px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.5);
+}
+.timer-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/*# sourceMappingURL=/app.c328ef1a.css.map */
